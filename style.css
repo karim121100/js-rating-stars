@@ -1,0 +1,18 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background: #f5f6f8;
+}
+
+.rating span {
+  font-size: 32px;
+  cursor: pointer;
+  color: #ccc;
+}
+
+.rating span.active {
+  color: gold;
+}
